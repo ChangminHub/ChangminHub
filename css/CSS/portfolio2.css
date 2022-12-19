@@ -1,0 +1,106 @@
+body{
+  margin:0px;
+  box-sizing: border-box;
+}
+.text-b{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.text-blue{
+  color:#6fbaf8;
+  display: block;
+}
+.button-blue{
+  background-color: #6fbaf8;
+  color: white;
+  border: none;
+  border-radius: 10%;
+}
+.border{
+  border: 1px solid #b3b5b9;
+}
+/* 공통 요소 */
+
+.main{
+  width: 90vw;
+  background-color: white;
+  margin:50px auto;
+  padding:30px 0px;
+  display: flex;
+}
+
+.main__image{
+  margin: auto 20px;
+}
+.main__content{
+  flex:20%;
+}
+
+.main__container2{
+  display: flex;
+  flex-direction: column;
+}
+.main__container2-box{
+  display: flex;
+  margin:0px 20px;
+  justify-content: flex-start;
+}
+.container2-box-title{
+  flex: 2;
+}
+.container2-box-content{
+  flex:1;
+}
+/* main start */
+.select{
+  width: 90vw;
+  margin:50px auto;
+  border-bottom: 1px solid black;
+}
+.select__profile{
+  color: #6fbaf8;
+  font-weight: bolder;
+
+}
+.content{
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+}
+.content__container{
+  margin: 0px 10px;
+  background-color: white;
+}
+.content__container1{
+
+  flex:1;
+}
+.content__container2
+{
+
+  flex:3;
+}
+.content__container3{
+  flex:1;
+}
+.content__container3-icon{
+  font-size: 4rem;
+  text-align: center;
+  color: #6fbaf8;
+}
+@media screen and (max-width:745px){
+  .main{
+    display: block;
+  }
+  .border{
+    border: none;
+  }
+  .main__image{
+    float: left;
+    margin-right: 80px;
+  }
+  .main__container2{
+    clear:both;
+  }
+}
